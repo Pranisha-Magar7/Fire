@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loggedin</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/Fire/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
 </head>
 <body>
+    <!-- Header section -->
     <header>
-<nav class="container">
+        <nav class="container">
             <div class="logo">
-                <img src="photo/Fire logo.png" alt="BookSpark logo">
-  <span>BookSpark</span>
+                <img src="/Fire/photo/Fire logo.png" alt="BookSpark logo">
+            <span>BookSpark</span>
             </div>
             <ul class="nav-links">
-                <li class="language-dropdown">
-  <select name="language">
-    <option value="en">English</option>
-    <option value="np">Nepali</option>
-  </select>
-</li>
+            <li class="language-dropdown">
+            <select name="language">
+                <option value="en">English</option>
+                <option value="np">Nepali</option>
+            </select>
+            </li>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about us">About us</a></li>
                 <li><a href="#books">Books</a></li>
@@ -30,23 +31,32 @@
             </ul>
             <div class="nav-right">
                 <input type="text" class="search-box" placeholder="Search books, authors...">
-              <a href="#notification"><img src="photo/noti.png" alt="notification" height="35" width="40"></a>
+              <a href="#notification"><img src="/Fire/photo/noti.png" alt="notification" height="35" width="40"></a>
             </div>
         </nav>
     </header>
-    <main>
-      <div class="slider">
-  <div class="slides">
-    <img src="photo/image.png" class="slide" alt="Slide 1">
-    <img src="photo/image.png" class="slide" alt="Slide 2">
-    <img src="photo/image.png" class="slide" alt="Slide 3">
-  </div>
-   <div class="dots">
-    <span class="dot active"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-  </div>
-</div>
+
+<!-- Hero section -->
+<main>
+    <section class="hero-section">
+        <div class="slide">
+            <img src="/Fire/photo/image.png" class="image" alt="Slide 1">
+        </div>
+        <div class="slide">
+            <img src="/Fire/photo/image.png" class="image" alt="Slide 2">
+        </div>
+        <div class="slide">
+            <img src="/Fire/photo/image.png" class="image" alt="Slide 3">
+        </div>
+
+        <button class="nav-button prev-button" onclick="goPrev()">&#10094;</button>
+        <button class="nav-button next-button" onclick="goNext()">&#10095;</button>
+       
+        <div class="dot-container"></div>
+    </section>
+   
+
+
  <section class="discover">
     <div class="discover-text">
       <h1>Welcome To our <span>E-Library</span></h1>
@@ -99,5 +109,6 @@
 
 
     </main>
+    <script src="/Fire/script/script.js"> </script>
 </body>
 </html>
