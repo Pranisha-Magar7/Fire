@@ -51,3 +51,14 @@ setInterval(() => {
 }, 4000);
 
 updateDots();
+const slider = document.querySelector('.book-slider');
+const prevBtn = document.querySelector('.prev');
+const nextBtn = document.querySelector('.next');
+
+prevBtn.addEventListener('click', () => {
+  slider.scrollBy({ left: -300, behavior: 'smooth' });
+});
+
+nextBtn.addEventListener('click', () => {
+  slider.scrollBy({ left: 300, behavior: 'smooth' });
+});
