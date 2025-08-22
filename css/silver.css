@@ -1,0 +1,162 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  color: #1a2332;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1300px;
+  max-height: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: fixed;
+  width: 100%;
+  height: auto;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.logo img {
+  height: 90px;
+  width: 90px; 
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+        }
+
+.nav-links a {
+  text-decoration: none;
+  color: #1a2332;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.language-dropdown select {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+
+.nav-links a:hover {
+  background: #ff6b35;
+  color: white;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.search-box {
+  padding: 10px 15px;
+  border: 2px solid #f3f4f6;
+  border-radius: 8px;
+  width: 250px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search-box:focus {
+  outline: none;
+  border-color: #ff6b35;
+}
+.membership-card {
+      text-align: center;
+      padding: 40px 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+     width: 100%;
+       background: linear-gradient(to right, #C0C0C0, #F8F8FF, #DCDCDC, #F8F8FF, #C0C0C0);
+    }
+
+    .membership-card img {
+      width: 70px;
+      margin-bottom: 20px;
+    }
+
+    .membership-card h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .membership-card p {
+      font-size: 16px;
+      font-weight: bold;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    .status-badge {
+      display: inline-block;
+      border: 2px solid #ccc;
+      border-radius: 25px;
+      padding: 8px 20px;
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 25px;
+    }
+
+    .status-badge span {
+      color: #1a73e8; 
+      margin-right: 5px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      border-radius: 25px;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .btn-browse {
+      background-color: #223a66;
+      color: #fff;
+    }
+    .btn-browse:hover {
+      background-color: #1b2f52;
+    }
+
+    .btn-upgrade {
+      background-color: #ff6b35;
+      color: #fff;
+    }
+    .btn-upgrade:hover {
+      background-color: #e85c2a;
+    }

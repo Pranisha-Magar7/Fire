@@ -25,7 +25,7 @@ body {
   transition: color 0.2s, background-color 0.2s;
 }
 .close:hover {
-  color: #223A66;
+  color: #ff4d4d; /* red on hover */
   background-color: #f0f0f0;
 }
 
