@@ -581,7 +581,7 @@ main{
 }
 /*About Us*/
 .about{
-    background-image: url('/photo/about.png');  
+    background-image: url('/app/pictures/about.png');  
   background-position: center;
   background-repeat: no-repeat;
   padding: 50px 30px;
@@ -640,7 +640,7 @@ margin-bottom: -5rem;
         text-align: center;
         padding: 40px 20px;
         position: relative;
-  background-image: url("/photo/testimonial.png");
+  background-image: url("/app/pictures/testimonial.png");
     background-size: cover;      
     background-position: center;  
     background-repeat: no-repeat;                
