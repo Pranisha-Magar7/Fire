@@ -35,7 +35,7 @@ body {
   padding: 50px;
   border-radius: 10px;
   text-align: center;
-  max-width: 400px;
+  max-width: 500px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   position: relative;
 }
@@ -61,23 +61,32 @@ h3{
   margin: 0 0 10px;
 }
 .buttons {
-  display: flex;
-  gap: 25px;
-  justify-content: center;
+   z-index: 1;
+    display:inline-block;
+    margin: 40px auto 0;
+    padding: 15px 30px;
+    background-color: #ea6d40;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    text-decoration: none;
+    justify-content: space-between;
 }
-
-
-button {
-  padding: 12px 24px;
-  border: none;
-  border-radius: 5px;
-  background: #FF6B35;
-  color: #223A66;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-button:hover {
-  background: #FF8C42;
-  transform: translateY(-5px);
+.button {
+   z-index: 1;
+    display:inline-block;
+    margin: 40px auto 0;
+    padding: 15px 30px;
+    background: transparent;
+    color: #fff;
+    background-color: #ea6d40;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    text-decoration: none;
 }
