@@ -14,13 +14,24 @@
     <button class="close-btn" onclick="document.querySelector('.login-container').style.display='none'">×</button>
     <h2>Login to your account</h2>
 
+    <form class="login">
     <label for="email">Email</label>
     <input type="email" id="email" placeholder="Enter your email" required/>
 
     <label for="password">Password</label>
     <input type="password" id="password" placeholder="Enter your password" required/>
 
-    <button class="login-btn">Login</button>
+    <div class="container">
+      <button class="login-btn" type="submit">Login</button>
+      <h3>Or</h3>
+      <button class="google-btn" type="submit">
+    <img src="/app/pictures/Google.png" alt="Google" width="20" height="20" align-items="left" padding-left="0">
+      Continue With Google</button>
+    </div>
+    </form>
+
+
   </div>
+  <script src="/app/script/script.js"></script>
 </body>
 </html>

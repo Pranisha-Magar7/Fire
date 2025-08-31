@@ -62,3 +62,19 @@ prevBtn.addEventListener('click', () => {
 nextBtn.addEventListener('click', () => {
   slider.scrollBy({ left: 300, behavior: 'smooth' });
 });
+
+// Alert for not filling the required value in login
+
+const login = document.getElementById("login")
+
+login.addEventListener("submit", function(event){
+
+  const email =document.getElementById("email").value.trim();
+  const password =document.getElementById("password").value.trim();
+
+  if (email === ""|| password === ""){
+    alert("Please fill in the required field!!");
+    event.preventDefault();
+  }
+  
+});
