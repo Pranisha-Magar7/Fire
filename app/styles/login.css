@@ -1,0 +1,171 @@
+body { 
+  margin: 0; 
+  font-family: Arial, sans-serif;
+   background-color: #f3f3f3; 
+    margin: 0;
+  padding: 20px;
+  color: #223A66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+.logo {
+ font-weight: bold; 
+ font-size: 20px;
+float: left; 
+ }
+.close-btn { 
+  float: right; 
+  font-size: 24px;
+   background: none;
+  border: none; 
+   cursor: pointer;
+   color: #333;
+   margin-top: -10px;
+   margin-right: -10px; 
+      }
+.login-container { 
+  width: 90%;
+  max-width: 400px; 
+  margin: 30px auto; 
+  background-color: #fff; 
+  padding: 30px; 
+  border-radius: 8px; 
+  text-align: center; 
+}
+.login-container h2 { 
+  margin-bottom: 20px; 
+}
+.login-container label { 
+  display: block; 
+  text-align: left;
+  margin: 15px 0 5px; 
+  font-weight: bold; 
+}
+.login-container input { 
+  width: 100%; 
+  padding: 12px;
+  margin-bottom: 10px; 
+  border-radius: 4px; 
+  border: 1px solid #ccc; 
+  box-sizing: border-box; 
+}
+
+container{
+  text-align: center;
+}
+
+.login-btn { 
+  background-color: #223A66; 
+  color: white; 
+  border: none; 
+  width: 100%; 
+  padding: 14px; 
+  font-size: 16px; 
+  border-radius: 4px; 
+  cursor: pointer; 
+}
+.login-btn:hover {
+  background-color: #284170;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.login-btn:active{
+  transform: translateY(1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.line-in-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+}
+
+.line-in-text h3 {
+  flex-grow: 1; 
+  display: flex;
+  color: #333;
+  justify-content: center;
+  align-items: center;
+  margin: 0; 
+}
+
+.line-in-text h3::before,
+.line-in-text h3::after {
+  content: '';
+  flex-grow: 1; 
+  background: black; 
+  height: 1px;
+  font-size: 0; 
+  line-height: 0;
+}
+
+.line-in-text h3::before {
+  margin-right: 10px; 
+}
+
+.line-in-text h3::after {
+  margin-left: 10px; 
+}
+
+/* LOgin with google button */
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 50px;
+  justify-content: center;
+  gap: 25px;
+  color:#223A66;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.google-btn img {
+  width: 22px;
+  height: 22px;
+}
+.google-btn:hover {
+  background-color: #f8f8f8;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.google-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+select {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  appearance: none; /* Removes default arrow in some browsers */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+select:hover {
+  border-color: #ff6b35;
+}
+select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath fill='%234CAF50' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 12px;
+}

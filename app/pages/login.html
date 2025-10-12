@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Library</title>
+  <link rel="stylesheet" href="/app/styles/login.css" />
+</head>
+<body>
+
+
+  <div class="login-container">
+    <img src="/app/pictures/Fire logo.png" alt="E-Library" width="100" height="100">
+    <button class="close-btn" onclick="hideModal()">×</button>
+    <h2>Login to your account</h2>
+
+    <form class="login">
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email" required/>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Enter your password" required/>
+
+    <div class="container">
+      <button class="login-btn" type="submit">Login</button>
+
+      <div class="line-in-text">
+        <h3>Or</h3>
+      </div>
+      
+      <button class="google-btn" type="submit">
+    <img src="/app/pictures/Google.png" alt="Google" width="20" height="20" align-items="left" padding-left="0">
+      Continue With Google</button>
+    </div>
+    </form>
+
+
+  </div>
+  <script>
+function hideModal() {
+    window.location.href = "/app/visitor.html";
+}
+</script>
+</body>
+</html>

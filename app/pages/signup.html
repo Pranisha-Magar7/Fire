@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Library</title>
+  <link rel="stylesheet" href="/app/styles/login.css" />
+</head>
+<body>
+
+
+  <div class="login-container">
+    <img src="/app/pictures/Fire logo.png" alt="E-Library" width="100" height="100">
+    <button class="close-btn" onclick="hideModal()">×</button>
+    <h2>Create your account</h2>
+
+    <form class="login">
+    
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Enter your Name" required/>
+    
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email" required/>
+
+    <label for="password">New Password</label>
+    <input type="password" id="password" placeholder="Enter your password" required/>
+    
+    <label for="password">Confirm Password</label>
+    <input type="password" id="password" placeholder="Confirm your password" required/>
+    
+    <label for="role">Select Role</label>
+    <select id="role" name="role" required >
+        <option value="" disabled selected>Select a role</option>
+        <option value="Teacher">Teacher</option>
+        <option value="student">Student</option>
+        <option value="Guest">Guest</option>
+        <option value="Admin">Admin</option>
+    </select>
+
+    <div class="container">
+      <button class="login-btn" type="submit" href="/app/pages/loggedin.html">Sign Up</button>
+    </div>
+
+    +--+
+
+      </div>
+  <script>
+function hideModal() {
+    window.location.href = "/app/visitor.html";
+}
+</script>
+</body>
+</html>

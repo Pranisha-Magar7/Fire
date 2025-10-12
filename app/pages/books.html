@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books - BookSpark</title>
+  <link rel="stylesheet" href="/app/styles/books.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <nav class="container">
+      <div class="logo">
+        <img src="/app/pictures/Fire logo.png" alt="BookSpark logo">
+        <span>BookSpark</span>
+      </div>
+      <ul class="nav-links">
+        <li class="language-dropdown">
+          <select name="language">
+            <option value="en">English</option>
+            <option value="np">Nepali</option>
+          </select>
+        </li>
+        <li><a href="/app/pages/loggedin.html">Home</a></li>
+        <li><a href="/app/pages/about.html">About us</a></li>
+        <li><a href="/app/pages/books.html">Books</a></li>
+        <li><a href="/app/pages/gold.html">plans</a></li>
+        <li><a href="/app/visitor.html">Logout</a></li>
+      </ul>
+      <div class="nav-right">
+        <input type="text" class="search-box" placeholder="Search books, authors...">
+        <a href="#notification"><img src="/app/pictures/noti.png" alt="notification" height="30" width="36"></a>
+        <a href="#profile"><img src="/app/pictures/profile.png" alt="profile" height="40" width="40"></a>
+      </div>
+    </nav>
+  </header>
+  <!-- Books Section -->
+  <section class="summary-container">
+    <fieldset class="summary">
+      <legend>For You</legend>
+      <!-- Genra Button -->
+      <section class="genre">
+        <h1>Genre</h1>
+        <button>👶 Kids</button>
+        <button>🤹 Comedy</button>
+        <button>🌹 Romance</button>
+      </section>
+      <!-- Book Cards 1 -->
+      <section class="books">
+        <div class="book-card">
+          <div class="book-cover">
+            <img src="/app/pictures/A Princess of Mars.png" alt="Book Cover">
+          </div>
+          <h3>Premium Book Title</h3>
+          <p>by Author Name</p>
+          <div class="rating">★★★★★ 4.8 (234)</div>
+          <div class="buttons">
+
+            <button><i class="fa-solid fa-book-open"></i>Read</button>
+            <button><i class="fa-solid fa-headphones"></i>Listen</button>
+          </div>
+          <button class="download-btn">⬇ Download</button>
+        </div>
+
+        <div class="book-card">
+          <div class="book-cover">
+            <img src="/app/pictures/A Room with a View by E. M. Forster.png" alt="Book Cover">
+          </div>
+          <h3>Premium Book Title</h3>
+          <p>by Author Name</p>
+          <div class="rating">★★★★★ 4.8 (234)</div>
+          <div class="buttons">
+            <button><i class="fa-solid fa-book-open"></i>Read</button>
+            <button><i class="fa-solid fa-headphones"></i>Listen</button>
+          </div>
+          <button class="download-btn">⬇ Download</button>
+        </div>
+
+        <div class="book-card">
+          <div class="book-cover">
+            <img src="/app/pictures/As You Like It.png" alt="Book Cover">
+          </div>
+          <h3>Premium Book Title</h3>
+          <p>by Author Name</p>
+          <div class="rating">★★★★★ 4.8 (234)</div>
+          <div class="buttons">
+            <button><i class="fa-solid fa-book-open"></i>Read</button>
+            <button><i class="fa-solid fa-headphones"></i>Listen</button>
+          </div>
+          <button class="download-btn">⬇ Download</button>
+        </div>
+      </section>
+      <!-- Book Cards 2 -->
+      <section class="books">
+        <div class="book-card">
+          <div class="book-cover">
+            <img src="/app/pictures/Kidnapped by Robert Louis Stevenson.png" alt="Book Cover">
+          </div>
+          <h3>Premium Book Title</h3>
+          <p>by Author Name</p>
+          <div class="rating">★★★★★ 4.8 (234)</div>
+          <div class="buttons">
+            <button><i class="fa-solid fa-book-open"></i>Read</button>
+            <button><i class="fa-solid fa-headphones"></i>Listen</button>
+          </div>
+          <button class="download-btn">⬇ Download</button>
+        </div>
+
+        <div class="book-card">
+          <div class="book-cover">
+            <img src="/app/pictures/Only a girl's love by Charles Garvice.png" alt="Book Cover">
+          </div>
+          <h3>Premium Book Title</h3>
+          <p>by Author Name</p>
+          <div class="rating">★★★★★ 4.8 (234)</div>
+          <div class="buttons">
+            <button><i class="fa-solid fa-book-open"></i>Read</button>
+            <button><i class="fa-solid fa-headphones"></i>Listen</button>
+          </div>
+          <button class="download-btn">⬇ Download</button>
+        </div>
+
+        <div class="book-card">
+          <div class="book-cover">
+            <img src="/app/pictures/The Enchanted April.png" alt="Book Cover">
+          </div>
+          <h3>Premium Book Title</h3>
+          <p>by Author Name</p>
+          <div class="rating">★★★★★ 4.8 (234)</div>
+          <div class="buttons">
+            <button><i class="fa-solid fa-book-open"></i>Read</button>
+            <button><i class="fa-solid fa-headphones"></i>Listen</button>
+          </div>
+          <button class="download-btn">⬇ Download</button>
+        </div>
+      </section>
+      <!-- Load More -->
+      <button class="load-more">Load More</button>
+    </fieldset>
+  </section>
+</body>
+
+</html>

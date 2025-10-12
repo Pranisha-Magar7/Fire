@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loggedin</title>
+    <link rel="stylesheet" href="/app/styles/loggedin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="/app/pictures/Fire logo.png" alt="BookSpark logo">
+                <span>BookSpark</span>
+            </div>
+            <ul class="nav-links">
+                <li class="language-dropdown">
+                    <select name="language">
+                        <option value="en">English</option>
+                        <option value="np">Nepali</option>
+                    </select>
+                </li>
+                <li><a href="/app/pages/loggedin.html">Home</a></li>
+                <li><a href="/app/pages/about.html">About us</a></li>
+                <li><a href="/app/pages/books.html">Books</a></li>
+                <li><a href="/app/pages/4">plans</a></li>
+                <li><a href="/app/visitor.html">Logout</a></li>
+            </ul>
+            <div class="nav-right">
+                <input type="text" class="search-box" placeholder="Search books, authors...">
+                <a href="#notification"><img src="/app/pictures/noti.png" alt="notification" height="30" width="36"></a>
+                <a href="/app/pages/profile.html"><img src="/app/pictures/profile.png" alt="profile" height="40" width="40"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- SLIDER SECTION -->
+        <div class="slider">
+            <div class="slides">
+                <img src="/app/pictures/image.png" class="slide" alt="Slide 1">
+                <img src="/photo/image.png" class="slide" alt="Slide 2">
+                <img src="/photo/image.png" class="slide" alt="Slide 3">
+            </div>
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+            <!-- FEATURES-->
+        <section class="features">
+            <div class="container">
+                <div class="feature-title">
+                    <h2>Why Choose E-Library?</h2>
+                    <p>Experience the future of reading with our comprehensive digital library</p>
+                </div>
+                <div class="feature-all">
+                    <div class="feature">
+                        <div class="feature-icon"><i class="fa-solid fa-book-open"></i></div>
+                        <h3>Library</h3>
+                        <p>Access unlimitec carefully curated books across all genres and subjects.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon"><i class="fa-solid fa-headphones"></i></div>
+                        <h3>Premium Audiobooks</h3>
+                        <p>High-quality audiobooks narrated by professional voice artists.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                        <h3>Multi-Device Access</h3>
+                        <p>Read seamlessly across all your devices with automatic sync.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon"><i class='bx  bx-wifi-slash'></i> </div>
+                        <h3>Offline Reading</h3>
+                        <p>Download books and read anywhere, anytime, even without internet.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon"><i class="fa-solid fa-download"></i></div>
+                        <h3>Download</h3>
+                        <p>Download various books according to your preference.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon"><i class="fa-solid fa-book"></i></div>
+                        <h3>Exclusive Content</h3>
+                        <p>Access to premium titles and early releases from top authors.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED BOOK -->
+        <section class="Book">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Featured Book</h2>
+                    <ul class="book-feature">
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Romance</a></li>
+                        <li><a href="#">Comedy</a></li>
+                    </ul>
+                </div>
+                <div class="books-container">
+                    <div class="book-card">
+                        <div class="audio-badge"><i class="fa-solid fa-lock"></i></div>
+                        <div class="book-cover">
+                            <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=200&h=300&fit=crop"
+                                alt="First Folio">
+                        </div>
+                        <div class="book-title">First Folio</div>
+                        <div class="book-author">shakespeare</div>
+                        <div class="book-price">$0.00</div>
+                    </div>
+
+
+                    <div class="book-card">
+                        <div class="audio-badge"><i class="fa-solid fa-lock"></i></div>
+                        <div class="book-cover">
+                            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=200&h=300&fit=crop"
+                                alt="Outlander">
+                        </div>
+                        <div class="book-title">Outlander</div>
+                        <div class="book-author">Diana Gabalda</div>
+                        <div class="book-price">$0.00</div>
+                    </div>
+
+
+                    <div class="book-card">
+                        <div class="audio-badge"><i class="fa-solid fa-lock"></i></div>
+                        <div class="book-cover">
+                            <img src="/app/pictures/about.png" alt="Influence">
+                        </div>
+                        <div class="book-title">INFLUENCE</div>
+                        <div class="book-author">Robert Cialdini</div>
+                        <div class="book-price">$0.00</div>
+                    </div>
+
+
+                    <div class="book-card">
+                        <div class="audio-badge"><i class="fa-solid fa-lock"></i></div>
+                        <div class="book-cover">
+                            <img src="banner.png" alt="Big Magic">
+                        </div>
+                        <div class="book-title">Big Magic</div>
+                        <div class="book-author">Elizabeth Gil</div>
+                        <div class="book-price">$0.00</div>
+                    </div>
+
+
+                    <div class="book-card">
+                        <div class="audio-badge"><i class="fa-solid fa-lock"></i></div>
+                        <div class="book-cover">
+                            <img src="banner.png" alt="Rigveda">
+                        </div>
+                        <div class="book-title">Rigveda</div>
+                        <div class="book-author">Veda Vyasa</div>
+                        <div class="book-price">$0.00</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEMBERSHIP SECTION -->
+        <section class="membership">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Choose Your Reading Journey</h2>
+                    <p>Flexible plans designed to match every reader's needs</p>
+                </div>
+                <div class="membership-grid">
+                    <div class="membership-card">
+                        <div class="membership-badge">Silver</div>
+                        <h3>Basic Plans</h3>
+                        <div class="price">$9<span>/month</span></div>
+                        <ul class="features-list">
+                            <li>Access limited books</li>
+                            <li>Get 2 downloads per month</li>
+                            <li>Download Books</li>
+                            <li>Offline reading available</li>
+                        </ul>
+                        <button class="btn">Upgrade to Silver</button>
+                    </div>
+
+                    <div class="membership-card featured">
+                        <div class="membership-badge">Most Popular</div>
+                        <h3>Gold Plans</h3>
+                        <div class="price">$19<span>/month</span></div>
+                        <ul class="features-list">
+                            <li>Enjoy the gold features</li>
+                            <li>Get Limited access of books with different category</li>
+                            <li>Also get book in different languages</li>
+                            <li>Download as much as you want</li>
+                            <li>Audio features</li>
+                        </ul>
+                        <button class="btn">Upgrade to Gold</button>
+                    </div>
+
+                    <div class="membership-card">
+                        <div class="membership-badge">Platinum</div>
+                        <h3>Premium Plans</h3>
+                        <div class="price">$29<span>/month</span></div>
+                        <ul class="features-list">
+                            <li>Access unlimited books</li>
+                            <li>Get access of categorized books</li>
+                            <li>New arrivals</li>
+                            <li>DIfferent language books</li>
+                            <li>Audio Features</li>
+                        </ul>
+                        <button class="btn">Upgrade to Platinum</button>
+                    </div>
+                </div>
+                <button class="button">Become a Member Today</button>
+            </div>
+        </section>
+
+        <!-- ABOUT US SECTION  -->
+       <section class="about">
+  <h1 class="title">ABOUT US</h1>
+  <div class="aboutus">
+    <div class="content">
+      <h2>Who we are?</h2>
+      <p>
+        Welcome to our E-Library Membership Management System — a modern
+         digital platform designed to provide easy and tiered access to a
+        wide collection of e-books and audio content. Whether you're a
+        curious visitor or a premium platinum member, we are committed
+
+
+        to enriching your learning journey through a clean, accessible, and secure library experience.
+      </p>
+      <a href="/app/pages/about.html" class="explore-btn">Explore More</a>
+    </div>
+    <div class="about-image">
+      <img src="/app/pictures/about-img.png" alt="E-Library Banner">
+    </div>
+  </div>
+</section>
+<!-- Testimonial SECTION  -->
+<section class="testimonial">
+    <h1>Testimonial</h1>
+    <img src="/app/pictures/Fire logo.png" alt="Profile" class="testimonial-img">
+    <p class="testimonial-text">
+        As a university student, managing time between classes, assignments, and research was always a challenge.
+        But ever since I started using this e-library, everything has become so much easier and more efficient.
+        The collection is vast, covering every subject I need—from textbooks and academic papers to reference materials
+        and even novels for leisure reading. The user interface is clean and refreshing, making it easy to focus without
+        distractions. I love how I can access everything from my laptop or phone, whether I'm on campus or at home.
+        It's like carrying an entire library in my pocket. This platform has truly transformed the way I learn!
+    </p>
+    <p class="author">— Aarav Sharma, BSc. Computer Science Student</p>
+</section>
+<!-- Contact SECTION  -->
+<section class="contact-section">
+    <h2>Contact us</h2>
+    <p>Have any question?</p>
+
+
+    <div class="contact-form">
+        <h3>Send us a message</h3>
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Your Name.....">
+
+
+            <label>Email</label>
+            <input type="email" placeholder="Your Email.....">
+
+
+            <label>Message</label>
+            <textarea placeholder="Your Message....."></textarea>
+
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+
+    </main>
+</body>
+
+</html>

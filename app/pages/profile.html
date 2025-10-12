@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app/styles/profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Profile</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="/app/pictures/Fire logo.png" alt="BookSpark logo">
+                <span>BookSpark</span>
+            </div>
+            <ul class="nav-links">
+                <li class="language-dropdown">
+                    <select name="language">
+                        <option value="en">English</option>
+                        <option value="np">Nepali</option>
+                    </select>
+                </li>
+                <li><a href="/app/pages/loggedin.html">Home</a></li>
+                <li><a href="/app/pages/about.html">About us</a></li>
+                <li><a href="/app/pages/books.html">Books</a></li>
+                <li><a href="/app/pages/gold.html">plans</a></li>
+                <li><a href="/app/visitor.html">Logout</a></li>
+               
+            </ul>
+            <div class="nav-right">
+                <input type="text" class="search-box" placeholder="Search books, authors...">
+                <a href="#notification"><img src="/app/pictures/noti.png" alt="notification" height="30" width="36"></a>
+                <a href="/app/pages/profile.html"><img src="/app/pictures/profile.png" alt="profile" height="40" width="40"></a>
+
+            </div>
+        </nav>
+    </header>
+<div class="Profile">
+        <!-- Profile Header -->
+        <div class="profile-header">
+            <div class="profile-photo"></div>
+            <h1 class="profile-name">Anushka Das</h1>
+            <p class="profile-email">anushkadas@email.com</p>
+            <p class="member-since">Member since: Jan 2025</p>
+            <div class="profile-buttons">
+                <button class="btn btn-change-photo"><i class="fa-solid fa-camera"></i> Change Photo</button>
+                <button class="btn btn-edit"><i class="fa-solid fa-pen"></i> Edit Profile</button>
+            </div>
+        </div>
+        
+        <!-- Profile Information -->
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">Profile Information</h2>
+                <a href="#" class="edit-link">Edit</a>
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label">First Name</label>
+                <input type="text" class="form-input" value="">
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label">Last Name</label>
+                <input type="text" class="form-input" value="">
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-input" value="">
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label">Phone</label>
+                <input type="tel" class="form-input" value="">
+            </div>
+            
+            <div class="form-group">
+                <label class="form-label">Bio</label>
+                <textarea class="form-input bio-input" placeholder="Love reading books in my free time."></textarea>
+            </div>
+        </div>
+        
+        <!-- Account Actions -->
+        <div class="section">
+            <h2 class="section-title">Account Actions</h2>
+            
+            <button class="action-btn">
+                <i class="fa-solid fa-lock"></i>  Change Password
+            </button>
+            
+            <button class="action-btn">
+                <i class="fa-solid fa-gear"></i>  Settings
+            </button>
+            
+            <button class="action-btn delete-btn">
+                 <i class="fa-solid fa-trash"></i> Delete Account
+            </button>
+        </div>
+    </div>
+</body>
+</html>
