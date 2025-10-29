@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member content</title>
+    <link rel="stylesheet" href="/app/styles/logout.css">
+</head>
+<body>
+    <div class="container">
+        <div class="close" onclick="hideModal()">×</div>
+        <h2>Do you want to logout?</h2>
+        <a href="/app/visitor.html" class="button">Yes</a>
+<a href="/app/pages/loggedin.html" class="buttons">No</a>
+    </div>
+    <script>
+function hideModal() {
+    window.location.href = "/app/pages/loggedin.html";
+}
+</script>
+</body>
+</html>
