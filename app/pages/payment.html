@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payment Method</title>
+  <link rel="stylesheet" href="../styles/Payment.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Payment Method</h2>
+
+    <form>
+      <label class="option">
+        <input type="radio" name="payment" value="paypal" />
+        PayPal
+      </label>
+
+      <label class="option">
+        <input type="radio" name="payment" value="credit-card" checked />
+        Credit Card
+      </label>
+
+      <div class="card-form">
+        <input type="text" placeholder="Card Holder Name" />
+        <input type="text" placeholder="Card Number" />
+        <div class="row">
+          <input type="text" placeholder="Expiry Date (MM/YY)" />
+          <input type="text" placeholder="CVV" />
+        </div>
+        <button type="submit">Submit</button>
+      </div>
+
+      <label class="option">
+        <input type="radio" name="payment" value="digital" />
+        Digital Payment (Alipay)
+      </label>
+
+      <label class="option">
+        <input type="radio" name="payment" value="cheque" />
+        Cheque
+      </label>
+    </form>
+  </div>
+</body>
+</html>
