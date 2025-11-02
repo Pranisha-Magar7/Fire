@@ -87,8 +87,8 @@ nav {
 /* Genre section */
 .genre {
   padding: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
   display: flex;
   justify-content: space-between;
   justify-items: start;
@@ -231,13 +231,14 @@ nav {
   border: 1px solid #333;
   margin: 20px;
   border-radius: 5px;
-  background-color: #ffcce5;
+  background-color: #f6c898;
 }
 
 .summary-container {
   padding-top: 90px;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 200px;
+  padding-right: 200px;
+  width: 75%;
 }
 
 .summary legend {
