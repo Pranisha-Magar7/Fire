@@ -637,14 +637,15 @@ nav {
     text-decoration: none;
 }
 .button:hover{
- background: #ff6b35;
+    background: #ff6b35;
     color: white;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(255, 107, 107, 0.3);
         }
+        
 /*About Us*/
 .about{
-    background-image: url('/app/pictures/about.png');  
+  background-image: url('/app/pictures/about.png');  
   background-position: center;
   background-repeat: no-repeat;
   padding: 50px 30px;
@@ -665,22 +666,16 @@ margin-bottom: -5rem;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
-
 .content {
   flex: 1;
   min-width: 50px;
   text-align: left;
   color: #f3f4f6;
 }
-
-
 .about-image {
     flex: 1;
   text-align: right;
 }
-
-
 .about-image img {
   max-width: 100%;
   height: auto;
@@ -698,6 +693,8 @@ margin-bottom: -5rem;
   display: inline-block;
   margin-top: 20px;
 }
+
+
 /*testimonial*/
     .testimonial {
         text-align: center;

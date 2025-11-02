@@ -63,18 +63,58 @@ nextBtn.addEventListener('click', () => {
   slider.scrollBy({ left: 300, behavior: 'smooth' });
 });
 
-// Alert for not filling the required value in login
+// // Alert for not filling the required value in login
 
-const login = document.getElementById("login")
+const loginForm = document.querySelector(".login"); // matches your HTML form class
 
-login.addEventListener("submit", function(event){
-
-  const email =document.getElementById("email").value.trim();
-  const password =document.getElementById("password").value.trim();
-
-  if (email === ""|| password === ""){
-    alert("Please fill in the required field!!");
+if (loginForm) {
+  loginForm.addEventListener("submit", function(event) {
     event.preventDefault();
-  }
-  
-});
+
+    const email = document.getElementById("email").value.trim();
+    const password = document.getElementById("password").value.trim();
+
+    if (email === "" || password === "") {
+      alert("Please fill in the required fields!");
+      return;
+    }
+
+    if (password.length < 6) {
+      alert("Password must be at least 6 characters long!");
+      return;
+    }
+
+    alert("Login Successful!");
+    window.location.href = "../pages/loggedin.html"; // adjust path as needed
+
+    
+  });
+}
+
+
+// This is for signup page 
+function signup(event){
+  event.preventDefault();
+}
+const name= document.getElementById("name").value.trim();
+const email= document.getElementById("email").value.trim();
+const newpassword = document.getElementById("new_password").value;
+const confirmpassword = document.getElementById("confirm_password").value;
+const role = document.getElementById("role").value;
+
+if(newpassword !== confirmpassword){
+  alert("Password do not match!");
+  return false;
+}
+
+localStorage.setItem("userName", name);
+localStorage.setItem("userEmail", email);
+localStorage.setItem("userRole", role);
+
+if(role === "admin"){
+  window.location.href = "app\pages\admin.html";
+} else{
+  window.location.href = "app\pages\loggedin.html";
+}
+
+
